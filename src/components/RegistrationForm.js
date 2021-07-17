@@ -47,6 +47,7 @@ const RegistrationForm = (props) => {
             >
                 <Form className="form">
                         <div className="form-field">
+                            {/* New line */}
                             {/* Email */}
                             <label htmlFor="email" className="form-label">Email</label>
                             <Field type="email" id="email" name="email" />
