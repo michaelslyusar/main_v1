@@ -7,7 +7,7 @@ import setAuthorizationToken from './utils/setAuthorizationToken';
 
 
 
-const LoginForm = (props) => {
+const RegistrationForm = (props) => {
     // SET GLOBAL TOKEN HEADER FOR AXIOS REQUESTS
     setAuthorizationToken();
 
@@ -18,7 +18,7 @@ const LoginForm = (props) => {
     const axiosSuccess = (res) => {
         setAuthorizationToken();
         sessionStorage.setItem('token', res.data['email']);
-        props.history.push('/dashboard');
+        props.history.push('/posts');
         console.log(props);
     };
 
@@ -70,4 +70,4 @@ const LoginForm = (props) => {
     );
 }
 
-export default LoginForm;
+export default RegistrationForm;
