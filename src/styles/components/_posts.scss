@@ -1,0 +1,47 @@
+.grid-container{
+    margin:15px;
+    display:grid;
+    grid-columns:auto auto;
+    grid-template-rows: min-content;
+    grid-template: "saved-posts other-posts";
+    text-align: center;
+    
+    
+}
+
+.saved-posts{
+    grid-area: saved-posts;
+    display:flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-self: auto;
+    height:265px;
+
+}
+.other-posts{
+    grid-area: other-posts;
+    display:flex;
+    flex-wrap: wrap;
+    height:auto;
+    align-items: flex-start;  
+    height:265px;
+}
+
+.card{
+    margin:3px;
+    
+}
+.card-content{
+    font-size: 8px;
+  }
+.card-title{
+ font-size: 10px;
+}
+
+.card-button{
+    
+}
+
+.card-content{
+  font-size: 8px;
+}

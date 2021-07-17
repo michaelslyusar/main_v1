@@ -1,0 +1,35 @@
+.registration-page{
+    background-color: #1D8A99;
+    height:100%;
+}
+.register-form{
+    border: blanchedalmond solid 0.5px;
+    margin-top:5%;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    background-color: #B5C9C3;
+    border-radius: 5px;
+}
+
+.form-control{
+    display:flex;
+    margin:auto;
+}
+.register-button{
+    margin-top: 10px ;
+    background-color: #0BC9CD;
+    border-radius: 5px;
+    border: blanchedalmond 0.2px solid;
+}
+
+.title{
+    text-align: center;
+}
+
+.error-message{
+    font-size: 14px;
+    font-weight: 600;
+    color:red;
+    text-align: center;
+}

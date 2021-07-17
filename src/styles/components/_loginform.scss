@@ -1,0 +1,39 @@
+.login-page{
+    background-color: #1D8A99;
+    height:100%;
+}
+.login-form{
+    background-color: #B5C9C3;
+    border:2px solid blanchedalmond;
+    margin-top:30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding:30px;
+}
+
+
+.login-button{
+    background-color: #0BC9CD;
+    border-radius: 5px;
+    border: blanchedalmond 0.2px solid;
+    color: black;
+    width:30%;
+    margin-left:35%;
+    margin-top:10px;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.axios-errors{
+    font-weight: 600;
+    color:red;
+    font-size: 16px;
+}
+
+
